@@ -113,6 +113,203 @@ Section 9 : Controlling Program Flow
 + Meilleure pratique : fournissez une instruction de rupture pour chaque cas.
 + Meilleure pratique - « par défaut » est facultatif, mais doit être géré.
 
+#### Opérateur conditionnel
 
++ `?:`
+
+![Opérateur conditionnel](../images/image71.jpg)
+
+
++ `cond_expr` est évalué comme une expression booléenne
+
+   + si `cond_expr` est vrai alors la valeur de `expr1` est renvoyée.
+   + si `cond_expr` est faux alors la valeur de `expr2` est renvoyée.
+
++ Semblable à la construction `if-else`
++ Opérateur ternaire
++ Très utile lorsqu'il est utilisé en ligne
++ Très facile à abuser !
+
++ Exemple
+
+![Opérateur conditionnel](../images/image72.jpg)
+
+### Boucle
+
++ Itération
+
+   + Le troisième élément de base de la programmation
+
+     + `séquence, sélection, itération`
+
+   + Itération ou répétition
+   + Permet l'exécution d'une instruction ou d'un bloc d'instructions de manière répétée.
+   + Les boucles sont constituées d'une condition de boucle et du corps qui contient les instructions à répéter.
+
++ Quelques cas d'utilisation typiques
+
++ Exécuter une boucle :
+
+   + un nombre précis de fois
+   + pour chaque élément d'une collection
+   + tant qu'une condition spécifique reste vraie.
+   + jusqu'à ce qu'une condition spécifique devienne fausse.
+   + jusqu'à ce que nous atteignions la fin d'un flux d'entrée
+   + pour toujours
+   + bien d'autres encore
+
++ boucle `for`
+   + Répétez un nombre spécifique de fois.
++ Boucle `Basée sur une plage`
+   + une itération pour chaque élément d'une plage ou d'une collection
++ boucle `while`
+   + Itérer pendant qu'une condition reste vraie.
+   + s'arrêter lorsque la condition devient fausse.
+   + vérifier la condition au début de chaque itération.
++ boucle `do-while`
+   + Itérer pendant qu'une condition reste vraie.
+   + Arrêtez-vous lorsqu'une condition devient fausse.
+   + vérifier la condition à la fin de chaque itération
+
+
+#### `for` Loop
+
+![for Loop](../images/image73.jpg)
+
+![for Loop](../images/image74.jpg)
+
+![for Loop](../images/image75.jpg)
+
++ array example : 
+
+![for Loop](../images/image76.jpg)
+
++ comma operator
+
+![for Loop](../images/image77.jpg)
+
++ Quelques autres détails...
+
+   + La boucle for de base est très claire et concise
+   + Puisque les expressions de la boucle for sont toutes facultatives, il est possible d'avoir.
+
+     + *pas d'initialisation*
+     + *pas de test*
+     + *pas d'incrément*
+
+![for Loop](../images/image78.jpg)
+
+#### Range-based `for` Loop
+
+![Range-based for Loop](../images/image79.jpg)
+
+![Range-based for Loop](../images/image80.jpg)
+
+
++ auto
+
+![Range-based for Loop](../images/image81.jpg)
+
++ vector
+
+![Range-based for Loop](../images/image82.jpg)
+
++ Initializer list
+
+![Range-based for Loop](../images/image83.jpg)
+
++ String
+
+![Range-based for Loop](../images/image84.jpg)
+
+#### While Loop
+
+![While Loop](../images/image85.jpg)
+
++ even numbers
+
+![While Loop](../images/image86.jpg)
+
++ array example
+
+![While Loop](../images/image86a.jpg)
+
++ input validation
+
+![While Loop](../images/image87.jpg)
+
++ input validation - boolean flag
+
+![While Loop](../images/image88.jpg)
+
+#### `do-while` Loop
+
+![do-while](../images/image89.jpg)
+
++ Input validation
+
+![do-while](../images/image90.jpg)
+
++ area calculation with calculate another
+
+![do-while](../images/image91.jpg)
+
+
+#### Instructions `continue` et `break`
+
++ `continue`
+   + Aucune autre instruction dans le corps de la boucle n'est exécutée.
+   + Le contrôle passe immédiatement directement au début de la boucle pour l'itération suivante.
+
++ `break`
+   + Aucune autre instruction dans le corps de la boucle n'est exécutée.
+   + Les boucles sont immédiatement terminées.
+   + Control passe immédiatement à l'instruction qui suit la construction de la boucle.
+  
+![continue-break](../images/image92.jpg)
+
+
+#### Boucles infinies
+
++ Boucles dont l'expression de condition est toujours évaluée à vrai.
++ Habituellement, cela est involontaire et constitue une erreur du programmeur.
++ Parfois, les programmeurs utilisent des boucles infinies et incluent et interrompent des instructions dans le corps pour les contrôler.
++ Parfois, des boucles infinies sont exactement ce dont nous avons besoin
+
+   + Boucle d'événements dans un programme événementiel.
+   + Système d'exploitation
+
+
+
+![infinite-while](../images/image93.jpg)
+
++ exemple 
+
+![infinite-while](../images/image94.jpg)
+
+
+#### Boucles imbriquées
++ Boucle imbriquée dans une autre boucle.
++ Peut comporter autant de niveaux de profondeur que le programme en a besoin.
++ Très utile avec les structures de données multidimensionnelles.
++ Boucle externe vs boucle intérieure
+
+![nested-loops](../images/image95.jpg)
+
++ Multiplication table:
+
+![nested-loops](../images/image96.jpg)
+
++ 2D Arrays - set all elements to 1000
+
+![nested-loops](../images/image97.jpg)
+
++ 2D Arrays - display elements
+
+![nested-loops](../images/image98.jpg)
+
++ 2D Vrector - display elements
+
+![nested-loops](../images/image99.jpg)
 
 
