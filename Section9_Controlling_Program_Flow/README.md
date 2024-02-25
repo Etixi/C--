@@ -77,7 +77,42 @@ Section 9 : Controlling Program Flow
 
 ## Déclarations `if` imbriquées
 
+![If](../images/image64.jpg)
+
+
 + L'instruction `If` est imbriquée dans une autre.
 + Permet de tester plusieurs conditions.
 + `else` appartient au `if` proche.
+
+![If](../images/image64a.jpg)
+
+![If](../images/image65.jpg)
+
+![If](../images/image66.jpg)
+
+#### The `switch` statement
+
+![Switch](../images/image67.jpg)
+
++ exemple : 
+
+![Switch](../images/image68.jpg)
+
++ exemple de chute
+
+![Switch](../images/image69.jpg)
+
++ avec une énumération
+
+![Switch](../images/image70.jpg)
+
++ L'expression de contrôle doit être évaluée comme un type entier.
++ L'expression case doit être une expression constante qui s'évalue en entiers ou en littéraux entiers.
++ Une fois qu'une correspondance se produit, toutes les sections de cas suivantes sont exécutées « JUSQU'À » ce qu'un « break » soit atteint et que le « switch » soit terminé.
+
++ Meilleure pratique : fournissez une instruction de rupture pour chaque cas.
++ Meilleure pratique - « par défaut » est facultatif, mais doit être géré.
+
+
+
 
