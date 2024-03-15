@@ -5,7 +5,13 @@ Débuter la programmation C++ - Du débutant au-delà
 
 
 
-![logo](images/cpp_logo.png)
+<img src="images/cpp_logo.png" width="300"/>
+
+<br/>
+
++ **`C++` est un langage compilé, ce qui signifie que le code source de votre programme doit être traduit (compilé) avant de pouvoir être exécuté sur votre ordinateur.**
+
+
 
 ## Information
 - Title:  `Débuter la programmation C++ - Du débutant au-delà`
