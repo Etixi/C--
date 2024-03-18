@@ -68,6 +68,7 @@ Section 23 : Bonus Section - Enumerations
 **Type d'énumération**
 ![énumération](images/image9.jpeg)
 
+<br/>
 
 **Nom de l'énumération**
 ![énumération](images/image10.jpeg)
